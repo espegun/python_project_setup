@@ -5,6 +5,11 @@ try:
 except ImportError:
     print("Fix imports to project style!")
 
-print("Add some tests....")
+
+def test_add_numbers():
+
+    assert add_numbers(2, 4) == 6
+
+
 
 
