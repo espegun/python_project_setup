@@ -10,7 +10,7 @@ Since we are using `tox`, it is recommended to use the [src layout](https://blog
 
 
 `__init__.py` files in all**(?)** folders under the top folder.<br/>
-`from folder.folder.module import function1, function2` How to import from sibling folders in a project.<br/> 
+`from folder.folder.module import function1, function2` How to import from sibling folders in a project. From same folder, just `from .module` ...<br/> 
 
 
 [General Python project structure](https://github.com/yngvem/python-project-structure)<br/>
