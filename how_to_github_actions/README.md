@@ -9,7 +9,7 @@ There are templates for doing Python build, building and deploying Docker images
 **Jobs** are actions like running tests, building containers or deploying those to the production environment.<br/>
 **Workflows** are composed on a number of jobs.<br/>
 
-GitHub looks for .yaml files in the `.github/workflows` directory.
+GitHub looks for workflow specifications as `.yml` files in the `.github/workflows` directory.
 
 
 ## Useful commands
