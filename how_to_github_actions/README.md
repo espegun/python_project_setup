@@ -11,6 +11,7 @@ There are templates for doing Python build, building and deploying Docker images
 
 GitHub looks for workflow specifications as `.yml` files in the `.github/workflows` directory.
 
+The easiest way to set up a workflow is to use the GUI **Actions --> Create new workflow --> Python application**, then modify the file.
 
 ## Useful commands
 `$ ...` Some comment<br/>
