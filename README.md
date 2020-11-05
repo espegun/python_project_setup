@@ -13,5 +13,16 @@ Since we are using `tox`, it is recommended to use the [src layout](https://blog
 `from folder.folder.module import function1, function2` To import from a project sibling folder. Within a folder, just `from .module ...`<br/> 
 
 
+## GitHub actions
+
+
+### Useful links
+[Getting started with GitHub Actions](https://www.padok.fr/en/blog/github-actions)<br/>
+
+
+
+
+
+
 [General Python project structure](https://github.com/yngvem/python-project-structure)<br/>
 [Setup from pytest perspective](https://docs.pytest.org/en/stable/goodpractices.html)<br/>
