@@ -13,6 +13,10 @@ GitHub looks for workflow specifications as `.yml` files in the `.github/workflo
 
 The easiest way to set up a workflow is to use the GUI **Actions --> Create new workflow --> Python application**, then modify the file.
 
+
+**How to fail on failing flake8 during PRs?**
+
+
 ## Useful commands
 `$ ...` Some comment<br/>
 
