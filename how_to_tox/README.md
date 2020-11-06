@@ -27,6 +27,7 @@ commands =
 `...`  .... <br/>
 
 ## Useful links
+[Readthedocs - tox with simple example **WIP**](https://tox.readthedocs.io/en/latest/)<br/>
 https://pypi.org/project/tox/<br/>
-https://tox.readthedocs.io/en/latest/<br/>
+
 
