@@ -4,7 +4,7 @@
 tox aims to automate and standardize testing in Python. It creates virtual environments with the python versions and packages your require and runs the test in those environments. It may also serve as a frontend toward CI tools.
 
 ## How does it work?
-Create a `tox.ini` file in the same (base) folder as `setup.py` (which is required). 
+Create a `tox.ini` file in the same (base) folder as `setup.py` (which is a required file). 
 
 `tox.ini` defines the Python versions and dependencies (of what..?). Does all packages used needs to be defined in `deps` - what about using `requirements.txt`?
 
