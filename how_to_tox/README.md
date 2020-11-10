@@ -9,6 +9,11 @@ Create a `tox.ini` file in the same (base) folder as `setup.py` (which is requir
 `tox.ini` defines the Python versions and dependencies (of what..?). Does all packages used needs to be defined in `deps` - what about using `requirements.txt`?
 
 
+
+
+**TBD: MASSE BRA GREIER I opening_hours tox.ini og pyprojcet.toml.**
+
+
 ```
 [tox]
 envlist = py27,py37
