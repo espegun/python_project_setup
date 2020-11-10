@@ -4,9 +4,8 @@
 tox aims to automate and standardize testing in Python. 
 
 ## How does it work?
-Create a tox.ini file in the same folder as setup.py (which is required).
+Create a `tox.ini` file in the same (base) folder as `setup.py` (which is required).
 
-content of: tox.ini , put in same dir as setup.py
 ```
 [tox]
 envlist = py27,py37
@@ -19,8 +18,8 @@ commands =
     pytest
 ```
 
-`$ pip install tox`
-` tox`
+`$ pip install tox`<br/>
+`$ tox`
 
 ## Useful commands
 `...`  .... <br/>
