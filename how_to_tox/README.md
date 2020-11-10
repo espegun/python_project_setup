@@ -25,6 +25,8 @@ commands =
 ## Useful commands
 `...`  .... <br/>
 `...`  .... <br/>
+`rm -rf .tox .build_venv` Simen's triks for å rydde opp i gammelt ræl. Funker overraskende ofte ved `InvocationError`.<br />
+
 
 ## Useful links
 [Readthedocs - tox with simple example **WIP**](https://tox.readthedocs.io/en/latest/)<br/>
