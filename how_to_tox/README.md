@@ -17,13 +17,14 @@ commands =
     # NOTE: you can run any command line tool here - not just tests
     pytest
 ```
-
-`$ pip install tox`<br/>
-`$ tox`
+Python-versions (and packages??) needs to be installed globally or it will fail.
 
 ## Useful commands
-`...`  .... <br/>
-`...`  .... <br/>
+`$ pip install tox` Install.<br/>
+`$ python3 -m pip install --upgrade tox` Remember, your need an updated tox  .... <br/>
+
+`$ tox`
+`tox --version`  .... <br/>
 `rm -rf .tox .build_venv` Simen's triks for å rydde opp i gammelt ræl. Funker overraskende ofte ved `InvocationError`.<br />
 
 
