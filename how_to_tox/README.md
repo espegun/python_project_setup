@@ -6,9 +6,9 @@ tox aims to automate and standardize testing in Python. It creates virtual envir
 ## How does it work?
 Create a `tox.ini` file in the same (base) folder as `setup.py` (which is a required file). 
 
-`tox.ini` defines the Python versions and dependencies (of what..?). Does all packages used needs to be defined in `deps` - what about using `requirements.txt`?
+`tox.ini` defines the Python versions and dependencies **(of what..?)**. Does all packages used needs to be defined in `deps` - what about using `requirements.txt`?
 
-
+`commands` can include any command(?), not just test related. 
 
 
 **TBD: MASSE BRA GREIER I opening_hours tox.ini og pyprojcet.toml.**
@@ -28,13 +28,11 @@ commands =
 Python-versions (and packages??) needs to be installed globally or it will fail.
 
 ## Useful commands
-`$ pip install tox` Install.<br/>
-`$ python3 -m pip install --upgrade tox` Remember, your need an updated tox  .... <br/>
-
-`$ tox`
-`tox --version`  .... <br/>
-`rm -rf .tox .build_venv` Simen's triks for å rydde opp i gammelt ræl. Funker overraskende ofte ved `InvocationError`.<br />
-
+`$ pip install tox` Install tox.<br/>
+`$ python3 -m pip install --upgrade tox` Keep it updated.<br/>
+`$ tox --version` Check version. <br/>
+`$ tox` Run the commands defined in `tox.ini`.<br/>
+`$ rm -rf .tox .build_venv` Simens triks for å rydde opp i gammelt ræl med test og bygg. Funker overraskende ofte.<br/>
 
 ## Useful links
 [Readthedocs - tox with simple example **WIP**](https://tox.readthedocs.io/en/latest/)<br/>
