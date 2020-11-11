@@ -35,7 +35,7 @@ Python-versions (and packages??) needs to be installed globally or it will fail.
 `$ rm -rf .tox .build_venv` Simens triks for å rydde opp i gammelt ræl med test og bygg. Funker overraskende ofte.<br/>
 
 ## Useful links
-[Readthedocs - tox with simple example **WIP**](https://tox.readthedocs.io/en/latest/)<br/>
+[Readthedocs - tox with simple example](https://tox.readthedocs.io/en/latest/)<br/>
 https://pypi.org/project/tox/<br/>
-
+[Tox tutorial with explanations](https://christophergs.com/python/2020/04/12/python-tox-why-use-it-and-tutorial/) To do! <br/>
 
