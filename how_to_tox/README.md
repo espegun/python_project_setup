@@ -10,6 +10,16 @@ tox aims to automate and standardize testing in Python, standardize as in contro
 4. Returns the results from each environment to the user.
 This is all defined in `tox.ini`, which should be created in the same (base) folder as `setup.py` (which is a required file). All the magic happens in the `.tox` folder.
 
+As written [here](https://christophergs.com/python/2020/04/12/python-tox-why-use-it-and-tutorial/), you may think of this as the following.
+- `virtualenv .tox/my_env`
+- `source .tox/my_env/activate`  
+- `(my_env) pip install some dependencies`
+- `(my_env) .tox/my_env/prepare_something.sh`
+- `(my_env) pytest .tox/my_env/tests_dir`
+
+**HERE WE ARE.**
+
+
 `tox.ini` defines the Python versions and dependencies **(of what..?)**. Does all packages used needs to be defined in `deps` - what about using `requirements.txt`?
 
 `commands` can include any command(?), not just test related. 
