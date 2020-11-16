@@ -1,7 +1,7 @@
 # How to tox
 
 ## The purpose
-tox aims to automate and standardize testing in Python, standardize as in control all the variables to create a reproducable, precise testing and build process. It creates virtual environments with the python versions and packages your require and runs the test in those environments. It may also serve as a frontend toward CI tools.
+tox aims to automate and standardize testing in Python, standardize as in control all the process input variables to create a reproducable and precise testing and build process. It creates virtual environments with the python versions and packages your require and runs the test in those environments. It may also serve as a frontend toward CI tools.
 
 ## How does it work?
 Create a `tox.ini` file in the same (base) folder as `setup.py` (which is a required file). 
