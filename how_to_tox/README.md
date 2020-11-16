@@ -8,7 +8,7 @@ tox aims to automate and standardize testing in Python, standardize as in contro
 2. Install dependencies of each of the environments.
 3. Run setup commands.
 4. Returns the results from each environment to the user.
-This is all defined in `tox.ini`, which should be created in the same (base) folder as `setup.py` (which is a required file). 
+This is all defined in `tox.ini`, which should be created in the same (base) folder as `setup.py` (which is a required file). All the magic happens in the `.tox` folder.
 
 `tox.ini` defines the Python versions and dependencies **(of what..?)**. Does all packages used needs to be defined in `deps` - what about using `requirements.txt`?
 
