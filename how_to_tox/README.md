@@ -17,28 +17,14 @@ As written [here](https://christophergs.com/python/2020/04/12/python-tox-why-use
 - `(my_env) .tox/my_env/prepare_something.sh`
 - `(my_env) pytest .tox/my_env/tests_dir`
 
-**HERE WE ARE.**
-
-
-`tox.ini` defines the Python versions and dependencies **(of what..?)**. Does all packages used needs to be defined in `deps` - what about using `requirements.txt`?
+`tox.ini` defines the Python versions and dependencies (required packages). In addition to specifying in `deps` you may also add what has been specified in `requirements.txt`.
 
 `commands` can include any command(?), not just test related. 
 
+ged
+**TBD: MASSE BRA GREIER I opening_hours tox.ini.**
 
-**TBD: MASSE BRA GREIER I opening_hours tox.ini og pyprojcet.toml.**
 
-
-```
-[tox]
-envlist = py27,py37
-
-[testenv]
-# install pytest in the virtualenv where commands will be executed
-deps = pytest
-commands =
-    # NOTE: you can run any command line tool here - not just tests
-    pytest
-```
 Python-versions (and packages??) needs to be installed globally or it will fail.
 
 ## Useful commands
@@ -47,6 +33,7 @@ Python-versions (and packages??) needs to be installed globally or it will fail.
 `$ tox --version` Check version. <br/>
 `$ tox` Run the commands defined in `tox.ini`.<br/>
 `$ rm -rf .tox .build_venv` Simens triks for å rydde opp i gammelt ræl med test og bygg. Funker overraskende ofte.<br/>
+Also see the file `tox.ini` for some examples.
 
 ## Useful links
 [Readthedocs - tox with simple example](https://tox.readthedocs.io/en/latest/)  
