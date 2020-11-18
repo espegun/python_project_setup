@@ -17,11 +17,10 @@ As written [here](https://christophergs.com/python/2020/04/12/python-tox-why-use
 - `(my_env) .tox/my_env/prepare_something.sh`
 - `(my_env) pytest .tox/my_env/tests_dir`
 
-`tox.ini` defines the Python versions and dependencies (required packages). In addition to specifying in `deps` you may also add what has been specified in `requirements.txt`.
+`tox.ini` defines the Python versions and dependencies (required packages). In addition to specifying in `deps` you may also add what has been specified in the requirements file by add  `-rrequirements.txt` as a dependency.  
+`commands` can include any bash command, not just test related.  
+In addition to python versions like `py38` and similar, you can also add custom environments which inherits from `testenv`.
 
-`commands` can include any command(?), not just test related. 
-
-ged
 **TBD: MASSE BRA GREIER I opening_hours tox.ini.**
 
 
