@@ -19,20 +19,18 @@ As written [here](https://christophergs.com/python/2020/04/12/python-tox-why-use
 
 `tox.ini` defines the Python versions and dependencies (required packages). In addition to specifying in `deps` you may also add what has been specified in the requirements file by add  `-rrequirements.txt` as a dependency.  
 `commands` can include any bash command, not just test related.  
-In addition to python versions like `py38` and similar, you can also add custom environments which inherits from `testenv`.
+In addition to python versions like `py38` and similar, you can also add custom environments which inherits from `testenv`, see example near the bottom of [this](https://christophergs.com/python/2020/04/12/python-tox-why-use-it-and-tutorial/).
 
-**TBD: MASSE BRA GREIER I opening_hours tox.ini.**
-
-
-Python-versions (and packages??) needs to be installed globally or it will fail.
+Python-versions (and packages?) needs to be installed globally or it will fail.
 
 ## Useful commands
-`$ pip install tox` Install tox.<br/>
-`$ python3 -m pip install --upgrade tox` Keep it updated.<br/>
-`$ tox --version` Check version. <br/>
-`$ tox` Run the commands defined in `tox.ini`.<br/>
-`$ rm -rf .tox .build_venv` Simens triks for å rydde opp i gammelt ræl med test og bygg. Funker overraskende ofte.<br/>
-Also see the file `tox.ini` for some examples.
+`$ pip install tox` Install tox.  
+`$ python3 -m pip install --upgrade tox` Keep it updated.  
+`$ tox --version` Check version.  
+`$ tox` Run the commands defined in `tox.ini`.  
+`$ rm -rf .tox .build_venv` Simens triks for å rydde opp i gammelt ræl med test og bygg. Funker overraskende ofte.  
+Also see the file `tox.ini` for some examples. Also, check `tox.ini` in the Dataplattform standard repos, including OpeningHours.
+
 
 ## Useful links
 [Readthedocs - tox with simple example](https://tox.readthedocs.io/en/latest/)  
