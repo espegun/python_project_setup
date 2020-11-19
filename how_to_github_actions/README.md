@@ -11,11 +11,9 @@ There are templates for doing Python build, building and deploying Docker images
 
 GitHub looks for workflow specifications as `.yml` files in the `.github/workflows` directory.
 
-The easiest way to set up a workflow is to use the GUI **Actions --> Create new workflow --> Python application**, then modify the file.
+The easiest way to set up a workflow is to use the GUI **Actions --> Create new workflow --> Python application**, then modify the file. The tests may be run with pytest, tox or anything. 
 
-
-**How to fail on failing flake8 during PRs?**
-
+The test results will be shown in the GUI when establishing a PR.
 
 ## Useful commands
 `$ ...` Some comment<br/>
