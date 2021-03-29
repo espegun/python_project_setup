@@ -1,6 +1,14 @@
 # python_project_setup
 How to set up a repo and file structure for automatic build, test, documentation and deployment.
 
+## The most simple approach (__init__.py only, no setup.py)
+Adding a `__init__.py` file to a directory, turns it into a package. Files in that directory can then be imported using a statement like the below.
+`from dirname.pymodule import function_name`
+This also works from parallell/sibling directories, like a `tests` directory.
+
+
+
+
 **TBD: setup-fila, hva gjør packages=(...) og name()**
 https://github.com/espegun/good-dev-practice/tree/master/how_to_setuptools
 
