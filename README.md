@@ -8,7 +8,7 @@ This also works from parallell/sibling directories, like a `tests` directory.
 Run `pytest`in the `simple_packages` directory to test this.
 
 
-
+## The setup.py
 
 **TBD: setup-fila, hva gjør packages=(...) og name()**
 https://github.com/espegun/good-dev-practice/tree/master/how_to_setuptools
