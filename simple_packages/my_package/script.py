@@ -1,4 +1,4 @@
-#from my_package.module import print_something  # Funker ikke
-from module import print_something  # Funker
+#from my_package.my_module import my_function  # Funker ikke
+from my_module import my_function  # Funker
 
-print_something()
+my_function()
