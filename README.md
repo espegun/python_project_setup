@@ -6,7 +6,7 @@ See the example files in `simple_packages/`. Run `pytest`from that directory and
 
 Adding a `__init__.py` file to a directory, turns it into a package. Files in that directory can then be imported from *outside the package* using a statement like the below:  
 `from my_package.my_module import my_function`. Typically from sibling directories like `test`. 
-*Within* the package, only use from `pymodule import function_name`.
+*Within* the package, only use from `from my_module import my_function`.
 Make sure the folder doesn't have the same name as an existing package, e.g. `code`.  
 
 See this [article](https://codeburst.io/creating-local-python-packages-with-init-py-aa19f1e9e80f).  
