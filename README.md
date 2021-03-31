@@ -4,8 +4,8 @@ How to set up a repo and file structure for automatic build, test, documentation
 ## The most simple approach (\_\_init\_\_.py only, no setup.py)
 See the example files in `simple_packages/`. Run `pytest`from that directory and also run `my_package/script.py` separately. Everything should work.  
 
-Adding a `__init__.py` file to a directory, turns it into a package. Files in that directory can then be imported from *outside the package* using a statement like the below:  
-`from my_package.my_module import my_function`. Typically from sibling directories like `test`.  
+Adding a `__init__.py` file to a directory, turns it into a package. Files in that directory can then be imported from *outside the package* (e.g. a sibling `test` directory) using a statement like:  
+`from my_package.my_module import my_function`. 
 *Within* the package, only use from `from my_module import my_function`.  
 Make sure the folder doesn't have the same name as an existing package, e.g. `code`.  
 
