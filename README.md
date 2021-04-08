@@ -1,6 +1,12 @@
 # python_project_setup
 How to set up a repo and file structure for automatic build, test, documentation and deployment.
 
+# Modules, packages and importing
+
+https://www.programiz.com/python-programming/modules
+https://www.programiz.com/python-programming/package
+
+
 ## The most simple approach (\_\_init\_\_.py only, no setup.py)
 See the example files in `simple_packages/`. Run `pytest`from that directory and also run `my_package/script.py` separately. Everything should work.  
 
