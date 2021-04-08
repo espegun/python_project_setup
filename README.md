@@ -27,3 +27,4 @@ Since we are using `tox`, it is recommended to use the [src layout](https://blog
 [General Python project structure](https://github.com/yngvem/python-project-structure)  
 [Setup from pytest perspective](https://docs.pytest.org/en/stable/goodpractices.html)  
 [How to make Python packages](https://link.medium.com/NvGP2II99eb)  
+https://python-packaging.readthedocs.io/en/latest/index.html  
